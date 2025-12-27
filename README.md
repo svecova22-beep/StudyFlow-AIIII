@@ -44,28 +44,53 @@ main()
 
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
+The project uses both open educational datasets and self‑collected user data. Initial training data comes from public sources such as the Student Performance Data Set (UCI Machine Learning Repository), which includes grades, study time, and demographic factors. In real use, students voluntarily contribute anonymized logs of their study sessions, quiz scores, and deadlines. All personal data is stored locally or anonymized before aggregation.
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+The AI methods are intentionally simple and transparent:
+
+Nearest neighbor to find students with similar performance patterns and recommend what worked for them.
+
+Linear regression to predict the time needed to reach a target score based on past study efficiency.
+
+
+These techniques were chosen because they are interpretable, easy to implement, and covered in the Building AI course—making the project a practical demonstration of foundational machine learning.
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+What the project does not solve:
+
+Lack of motivation or self-discipline in students.
+
+Deep conceptual learning difficulties that require expert teaching.
+
+Non-academic factors affecting study time (e.g., health issues, work obligations).
+
+Technical limitations:
+
+"Cold start" problem: new users without historical data receive generic recommendations.
+
+Overfitting risk if training data is too small or not diverse.
+
+
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+To move from a prototype to a usable tool, the next steps would include:
+
+Building a simple web or mobile interface where students can input their data and view their schedule.
+
+Integrating with calendar APIs (Google Calendar, Outlook) to sync study blocks automatically.
+
+Adding natural language input (e.g., “I have a biology test next Friday”) for easier setup.
 
 
 ## Acknowledgments
 
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+Inspired by productivity tools like Forest and Quizlet, and by the “spaced repetition” learning technique.
+
+Dataset: Student Performance Data Set from the UCI Machine Learning Repository (public domain for academic use).
+
+Course materials from Elements of AI provided the foundation in nearest neighbor and linear regression methods.
+
+Unsplash image used in the README: “Desk with notebook and laptop” by Glenn Carstens‑Peters – free to use under the Unsplash License. ![Student studying with a planner](https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80) 
+
