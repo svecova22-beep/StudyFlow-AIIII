@@ -6,7 +6,7 @@ Final project for the Building AI course
 
 ## Summary
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+StudyFlow AI is a smart scheduling tool that helps students manage study time effectively. It uses AI to recommend what to study next, predict time needed per topic, and create personalized weekly plans. By analyzing past performance and deadlines, it reduces procrastination and boosts productivity.
 
 
 ## Background
@@ -14,9 +14,8 @@ Describe briefly in 2-3 sentences what your project is about. About 250 characte
 Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
 
 This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
+* problem 1: Inefficient time allocation – Students often study randomly rather than focusing on weak areas, wasting valuable time.
+* problem 2: Procrastination and deadline overload – Without a smart schedule, students delay studying until deadlines stack up, increasing stress.
 
 
 ## How is it used?
@@ -24,8 +23,7 @@ This is how you make a list, if you need one:
 Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
 
 Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.) https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80 
 
 If you need to resize images, you have to use an HTML tag, like this:
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
