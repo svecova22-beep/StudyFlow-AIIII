@@ -20,13 +20,9 @@ This is how you make a list, if you need one:
 
 ## How is it used?
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+A student starts by entering their subjects, deadlines, and past grades. The system then creates a personalized study schedule by comparing their data with similar learners and predicting the time needed for each topic. The student follows the daily plan, logs their progress, and the schedule adapts based on their actual performance—focusing more on weaker areas and adjusting timelines as needed.
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.) ![Student studying with a planner](https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80) 
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+It’s designed for busy study periods like exam weeks or project deadlines, and is aimed at students at any level who need help managing their time effectively. The tool prioritizes privacy, flexibility for different schedules, and a simple interface that encourages consistent use without adding extra stress. ![Student studying with a planner](https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80) 
 
 This is how you create code examples:
 ```
